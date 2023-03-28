@@ -1,0 +1,108 @@
+header {
+    height: 80px;
+    width: 100%;
+    background-color:#E50914 ;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    opacity: 0.9;
+  }
+.container-header {
+    background-color:black;
+    height: 80px;
+    width: 100%;  
+}
+.header-left {
+    font-family: fantasy;
+    font-size: 40px;
+    color:rgb(221, 14, 14);
+    padding: 18px; 
+    float: left;
+}
+
+.header-left:hover{
+  font-size: 45px;
+  transition: all 1s;
+}
+
+.header-right { 
+    color:rgb(221, 14, 14);
+    float: right; 
+    margin: 0;  
+    padding: 30px;
+}
+
+.search-box {
+  background-color: #d1d1d111;
+  color: rgb(255, 228, 196);
+  padding: 5px 20px;
+  border-radius: 20px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+  float: left;
+  margin-bottom: px;
+}
+.search-box input{
+  background-color:#d1d1d111;
+  border:none;
+  outline: none;
+  color:#ffffff;
+  border-radius: 5px;
+}
+
+.login {
+    color:white;
+    font-size: 15px;
+    font-family:sans-serif;
+    background-color: rgb(221, 14, 14);
+    padding: 5px;
+    margin-right: 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.login:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+  .btn-wrapper {
+    float: right;
+  }
+
+.btn-signup {
+    color:white;
+    font-size: 15px;
+    font-family:sans-serif;
+    background-color: rgb(221, 14, 14);
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.btn-signup:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+@media (max-width:445px) {
+  .header-right {
+    display: none;
+  }
+
+  .header-left {
+    text-align: center;
+    float: none;
+  }
+}
+
+@media (max-width:760px){
+  .search-box{
+    display: none;
+  }
+}
